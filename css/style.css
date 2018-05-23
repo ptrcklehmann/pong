@@ -1,0 +1,58 @@
+
+body {
+	font-family: 'Aldrich', sans-serif;
+	background: #f4f4f4;
+	color: #e26bbd;
+}
+h1 {
+	font-size: 60px;
+	text-align: center;
+	color: rgb(83, 7, 75);
+}
+#label {
+	position: absolute;
+	left:100px;
+	text-align: center;
+}
+
+#inst {
+	position: absolute;
+	top:80px;
+	left: 520px;
+	width: 300px;
+	height: 40px;
+	font-size: 10px;
+
+}
+#game
+{
+position:absolute;
+left:100px;
+top:100px;
+background: #5bc98e;
+width:700px;
+height:400px;
+border-radius: 3px;
+/*border-left: solid 10px rgb(255, 252, 0);
+border-right: solid 10px rgb(255, 252, 0);*/
+
+}
+
+
+#game div
+{
+position:absolute;
+}
+
+.paddle {
+	width: 15px;
+	height: 80px;
+	background: #e5f1eb;
+}
+
+.ball {
+	width: 25px;
+	height: 25px;
+	background: #a82b64;
+	border-radius: 50%;
+}
